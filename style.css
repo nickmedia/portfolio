@@ -1,0 +1,208 @@
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+video {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+body.baggrund {
+  background-color: #95a6a0;
+  background-image: url("..//images/splash_forside.png");
+}
+
+body {
+  background-color: #95a6a0;
+}
+
+body.baggrundportfolio {
+  background-color: #95a6a0;
+  background-image: url("../images/splash_portfolio.png");
+}
+
+main {
+  flex: 1;
+}
+
+@font-face {
+  font-family: juraregular;
+  src: url(/font/Jura-Regular.woff2);
+}
+
+@font-face {
+  font-family: jurabold;
+  src: url(/font/Jura-Bold.woff2);
+}
+
+header {
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: juraregular;
+}
+
+/* Almindelig styling for navigationselementer */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+/* Styling for navigationselement-links */
+nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: white;
+  border-bottom-color: white;
+  border-radius: 5px;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Jura", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Jura", sans-serif;
+}
+
+h3 {
+  font-family: "Jura", sans-serif;
+}
+
+h4 {
+  font-family: "Jura", sans-serif;
+}
+
+p {
+  text-align: left;
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+}
+
+.p_forside {
+  text-align: center;
+  font-size: 25px;
+}
+
+.knap {
+  font-family: "Jura", sans-serif;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #3b5473;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.knap:hover {
+  background-color: #506f8c;
+  color: white;
+}
+
+.knap_center {
+  text-align: center;
+}
+
+.om {
+  text-align: left;
+}
+
+.årstal {
+  font-size: 25px;
+}
+
+/* .baggrund_splash {
+  background-image: url(/images/splash.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+} */
+
+.rund_boks {
+  border-radius: 15px;
+
+  padding: 20px;
+  background-color: #d7d7d9;
+  text-align: center;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.bokstekst {
+  text-align: left;
+}
+
+.boksoverskrift {
+  color: black;
+}
+
+.portræt {
+  max-width: 80%;
+  border-radius: 20%;
+}
+
+.portræt_billede {
+  background-image: url(..//images/splash_ommigmobil.png);
+}
+
+a {
+  font-family: "Jura", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  color: #506f8c;
+}
+
+.indhold {
+  color: black;
+}
+
+.undersider {
+  text-align: left;
+}
